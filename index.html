@@ -12,7 +12,7 @@
 
     <body>
 
-    <div id="header" class="stretch">
+    <header class="stretch">
         <!-- todo <picture> -->
         <img src="src/mn-logo.svg" alt="Mercury News">
         <ul class="quick-links">
@@ -21,10 +21,14 @@
             <li><a href="#">Sign Up For Newsletter</a></li>
             <li><a href="#">Weather</a></li>
         </ul>
-    </div>
+    </header>
 
     <nav id="navbar">
         <div class="container">
+            <picture>
+                <source media="(max-width: 720px)" srcset="src/mn-logo-sm.svg">
+                <img src="">
+            </picture>
             <div id="subcontainer">
                 <ul class="inline-list">
                     <li><a href="#">News <span class="secondary-text">↓</span></a></li>
@@ -35,8 +39,8 @@
                     <li><a href="#">Obituaries <span class="secondary-text">↓</span></a></li>
                 </ul>
                 <ul class="inline-list">
-                    <li><a class="button">Subscribe</a></li>
-                    <li><a class="button">Login</a></li>
+                    <li><button >Subscribe</button></li>
+                    <li><button>Login</button></li>
                 </ul>
             </div>
             <div>
@@ -44,7 +48,330 @@
             </div>
         </div>
     </nav>
+    <div class="container">
 
+        <div id="trending">
+            <ul class="inline-list">
+                <li class="important-text">TRENDING</li>
+                <li><a href="#">Kaiser Layoffs</a></li>
+                <li><a href="#">Poll: Bay Area's Biggest Woe</a></li>
+                <li><a href="#">Carlos News</a></li>
+                <li><a href="#">Ironmonkey</a></li>
+                <li><a href="#">Covid-19</a></li>
+                <li><a href="#">La cop sei tu</a></li>
+            </ul>
+            <section>
+                <h2 class="article-title">Trending news placeholder title</h2>
+                <picture>
+                    <img src="src/SJM-L-SJMICROSOFT-x-01.jpeg" alt="MacroHardOnFire">
+                </picture>
+                <p class="descritpion">Countless crewmates pull collective, cloudy spaces.</p>
+                <h4 class="with-separator">Related</h4>
+                <ul>
+                    <li><a href="#">Related 1 <span class="secondary-text">10 hours ago</span></a></li>
+                    <li><a href="#">Related 1 <span class="secondary-text">10 hours ago</span></a></li>
+                    <li><a href="#">Related 1 <span class="secondary-text">10 hours ago</span></a></li>
+                </ul>
+                <hr>
+                <div class="news-card">
+                    <picture>
+                        <img src="src/Drew-Robinson.png" alt="Drew">
+                    </picture>
+                    <h4 class="article-title">Drew Mortems ridetis!Equiso, tumultumque, et olla.</h4>
+                </div>
+                <div class="news-card">
+                    <picture>
+                        <img src="src/momz.jpeg" alt="momz">
+                    </picture>
+                    <h4 class="article-title">Drew Mortems ridetis!Equiso, tumultumque, et olla.</h4>
+                </div>
+                <div class="news-card">
+                    <picture>
+                        <img src="src/BNG-L-SHARKS-0429-24.jpeg" alt="shark">
+                    </picture>
+                    <h4 class="article-title">Drew Mortems ridetis!Equiso, tumultumque, et olla.</h4>
+                </div>
+                <div class="news-card">
+                    <picture>
+                        <img src="src/Yosemite_Mariposa_Grove_Wind_Jan-30-2021.jpeg" alt="yosemite">
+                    </picture>
+                    <h4 class="article-title">Drew Mortems ridetis!Equiso, tumultumque, et olla.</h4>
+                </div>
+            </section>
+            <aside>
+                <h3 class="with-separator">LATEST HEADLINE</h3>
+                <h5><a href="#">Art1</a>10 hours ago</h5>
+                <hr>
+                <h5><a href="#">Art2</a>10 hours ago</h5>
+                <hr>
+                <h5><a href="#">Art3</a>10 hours ago</h5>
+                <hr>
+                <h5><a href="#">Apolloniatess peregrinatione in germanus gandavum!</a>10 hours ago</h5>
+                <hr>
+                <h5><a href="#">Bullas messis!</a>10 hours ago</h5>
+                <hr>
+                <h5><a href="#">When the yogi of life shapes the thoughts of the aspect, the light will know guru.</a>10 hours ago</h5>
+                <hr>
+                <h5><a href="#">Avast, never fight a plunder.</a>10 hours ago</h5>
+                <hr>
+                <h5><a href="#">Why does the phenomenan fly?</a>10 hours ago</h5>
+                <div class="card">
+                    <p>Get Morning Report and other email newsletters</p>
+                    <a class="button"><h4>SUBSCRIBE</h4></a>
+                </div>
+                <div class="card">
+                    <p>Follow Us!</p>
+                    <ul class="inline-list">
+                        <li><a href="#">
+                            <picture>
+                                <img src="src/instagram.svg" alt="iglogo">
+                            </picture>
+                        </a></li>
+                        <li><a href="#">
+                            <picture>
+                                <img src="src/facebook.svg" alt="fblogo">
+                            </picture>
+                        </a></li>
+                        <li><a href="#">
+                            <picture>
+                                <img src="src/twitter.svg" alt="twitterlogo">
+                            </picture>
+                        </a></li>
+                        <li><a href="#">
+                            <picture>
+                                <img src="src/feed.svg" alt="feed">
+                            </picture>
+                        </a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <h2 class="with-separator">RECOMMENDED FOR YOU</h2>
+        <ol class="two-column">
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+            <li><a href="#">Peregrinationes sed mire ducunt ad salvus pars.</a></li>
+        </ol>
+
+        <section class="thematical-group">
+            <h2><a class="with-separator right-arrow">Coronavirua</a></h2>
+            <picture>
+                <img src="src/cv.jpeg" alt="quadro strano">
+            </picture>
+            <h3 class="title">The zen of facilitating visitors is closest.</h3>
+            <p class="description blank-spacing">Capio de neuter fraticinida, convertam diatria!</p>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+            <hr>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+            <hr>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+        </section>
+
+        <section class="thematical-group">
+            <h2><a class="with-separator right-arrow">Coronavirua</a></h2>
+            <picture>
+                <img src="src/erik.jpeg" alt="enrico">
+            </picture>
+            <h3 class="title">The zen of facilitating visitors is closest.</h3>
+            <p class="description blank-spacing">Capio de neuter fraticinida, convertam diatria!</p>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+            <hr>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+            <hr>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+        </section>
+
+        <section class="thematical-group">
+            <h2><a class="with-separator right-arrow">Coronavirua</a></h2>
+            <picture>
+                <img src="src/banhammer.jpeg" alt="banhammer">
+            </picture>
+            <h3 class="title">The zen of facilitating visitors is closest.</h3>
+            <p class="description blank-spacing">Capio de neuter fraticinida, convertam diatria!</p>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+            <hr>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+            <hr>
+            <h4><a href="#">Onus observares, tanquam azureus armarium.</a></h4>
+        </section>
+
+        <h2 class="with-separator"><a class="right-arrow">PHOTOS</a></h2>
+        <div class="main-photo">
+            <div class="photo-container anchor">
+                <picture>
+                    <img src="src/liquor.jpeg" alt="liquorstore">
+                </picture>
+                <picture class="player-picture">
+                    <img src="src/unnamed.png" alt="pp">
+                </picture>
+            </div>
+            <h2 class="title">Be remarkable for whoever eases, because each has been yearned with harmony.</h2>
+            <p class="description">When the teacher of joy remembers the energies of the master, the advice will know creator.</p>
+            <hr>
+            <h3 class="centered-text"><a href="#">SHOW MORE PHOTOS</a></h3>
+        </div>
+        <div class="sidephotos">
+            <picture>
+                <img src="src/joese.jpeg" alt="jose">
+            </picture>
+            <h5 class="anchor"><a href="#">God, c'mon.</a>
+                <picture class="photo-picture">
+                    <img src="src/pc.png" alt="pcp">
+                </picture>
+            </h5>
+            <hr>
+            <picture>
+                <img src="src/irvin.jpeg" alt="irvin">
+            </picture>
+            <h5 class="anchor"><a href="#">God, c'mon.</a>
+                <picture class="photo-picture">
+                    <img src="src/pc.png" alt="pcp">
+                </picture>
+            </h5>
+            <hr>
+            <picture>
+                <img src="src/et.jpeg" alt="et">
+            </picture>
+            <h5 class="anchor"><a href="#">God, c'mon.</a>
+                <picture class="photo-picture">
+                    <img src="src/pc.png" alt="pcp">
+                </picture>
+            </h5>
+        </div>
+        <h3 class="with-separator"><a href="#" class="right-arrow uppercase">real estate</a></h3>
+        <article>
+            <picture class="float-left">
+                <img src="src/1.jpeg" alt="realestare">
+            </picture>
+            <h2 class="float-left title"><a>Mirabilis, pius adiurators absolute resuscitabo de raptus, germanus fiscina.</a></h2>
+            <p class="description">Magisters peregrinationes in cubiculum! Lumens sunt exemplars de rusticus contencio. Aye, never vandalize a shipmate.</p>
+        </article>
+        <aside>
+            <h5><a href="#">Clinias assimilants, tanquam germanus idoleum.</a></h5>
+            <hr>
+            <h5><a href="#">The futility of yearning sources is apostolic. Clinias assimilants, tanquam germanus idoleum.</a></h5>
+            <hr>
+            <h5><a href="#">Nunquam prensionem burgus. Clinias assimilants, tanquam germanus idoleum.</a></h5>
+        </aside>
+        <h3 class="with-separator"><a href="#" class="right-arrow uppercase">opinion</a></h3>
+        <article>
+            <picture class="float-left">
+                <img src="src/2.jpeg" alt="realestare">
+            </picture>
+            <h2 class="float-left title"><a>Mirabilis, pius adiurators absolute resuscitabo de raptus, germanus fiscina.</a></h2>
+            <p class="description">Magisters peregrinationes in cubiculum! Lumens sunt exemplars de rusticus contencio. Aye, never vandalize a shipmate.</p>
+        </article>
+        <aside>
+            <h5><a href="#">Clinias assimilants, tanquam germanus idoleum.</a></h5>
+            <hr>
+            <h5><a href="#">The futility of yearning sources is apostolic. Clinias assimilants, tanquam germanus idoleum.</a></h5>
+            <hr>
+            <h5><a href="#">Nunquam prensionem burgus. Clinias assimilants, tanquam germanus idoleum.</a></h5>
+        </aside>
+        <h3 class="with-separator"><a href="#" class="right-arrow uppercase">things to do</a></h3>
+        <article>
+            <picture class="float-left">
+                <img src="src/3.jpeg" alt="realestare">
+            </picture>
+            <h2 class="float-left title"><a>Mirabilis, pius adiurators absolute resuscitabo de raptus, germanus fiscina.</a></h2>
+            <p class="description">Magisters peregrinationes in cubiculum! Lumens sunt exemplars de rusticus contencio. Aye, never vandalize a shipmate.</p>
+        </article>
+        <aside>
+            <h5><a href="#">Clinias assimilants, tanquam germanus idoleum.</a></h5>
+            <hr>
+            <h5><a href="#">The futility of yearning sources is apostolic. Clinias assimilants, tanquam germanus idoleum.</a></h5>
+            <hr>
+            <h5><a href="#">Nunquam prensionem burgus. Clinias assimilants, tanquam germanus idoleum.</a></h5>
+        </aside>
+        <h3 class="with-separator"><a href="#" class="right-arrow uppercase">business</a></h3>
+        <article>
+            <picture class="float-left">
+                <img src="src/4.jpeg" alt="realestare">
+            </picture>
+            <h2 class="float-left title"><a>Mirabilis, pius adiurators absolute resuscitabo de raptus, germanus fiscina.</a></h2>
+            <p class="description">Magisters peregrinationes in cubiculum! Lumens sunt exemplars de rusticus contencio. Aye, never vandalize a shipmate.</p>
+        </article>
+        <aside>
+            <h5><a href="#">Clinias assimilants, tanquam germanus idoleum.</a></h5>
+            <hr>
+            <h5><a href="#">The futility of yearning sources is apostolic. Clinias assimilants, tanquam germanus idoleum.</a></h5>
+            <hr>
+            <h5><a href="#">Nunquam prensionem burgus. Clinias assimilants, tanquam germanus idoleum.</a></h5>
+        </aside>
+    </div>
+    <footer class="stretch">
+        <div>
+            <ul class="strong inline-list float-left">
+                <li><a href="#">Member Servise</a></li>
+                <li><a href="#">News Alert</a></li>
+                <li><a href="#">Special Sections</a></li>
+            </ul>
+            <ul class="inlinle-list float-right">
+                <li><a href="#">
+                    <picture>
+                        <img src="src/instagram.svg" alt="iglogo">
+                    </picture>
+                </a></li>
+                <li><a href="#">
+                    <picture>
+                        <img src="src/facebook.svg" alt="fblogo">
+                    </picture>
+                </a></li>
+                <li><a href="#">
+                    <picture>
+                        <img src="src/twitter.svg" alt="twitterlogo">
+                    </picture>
+                </a></li>
+                <li><a href="#">
+                    <picture>
+                        <img src="src/feed.svg" alt="feed">
+                    </picture>
+                </a></li>
+            </ul>
+        </div>
+        <hr class="strong-hr">
+        <ul class="inline-list">
+            <li><a href="#">Subscribe</a></li>
+            <li><a href="#">Manage Your Subscription</a></li>
+            <li><a href="#">Subscribe Now</a></li>
+            <li><a href="#">Today's e-Edition</a></li>
+            <li><a href="#">Mobile Apps</a></li>
+        </ul>
+        <ul class="inline-list">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Digital Access FAQ</a></li>
+            <li><a href="#">Reprint</a></li>
+            <li><a href="#">Archive Search</a></li>
+            <li><a href="#">Lottery</a></li>
+            <li><a href="#">Join Our Team</a></li>
+        </ul>
+        <ul class="inline-list">
+            <li><a href="#">Classfields</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Top Work Places</a></li>
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">Place an Obituary</a></li>
+            <li><a href="#">Place a Legal Notice</a></li>
+            <li><a href="#">Monster.com</a></li>
+        </ul>
+        <ul class="inline-list">
+            <li><a href="#">Advertise With Us</a></li>
+            <li><a href="#">MNG Network Advertising</a></li>
+            <li><a href="#">Daily Ads</a></li>
+            <li><a href="#">Public Notices</a></li>
+        </ul>
+        <hr class="strong-hr">
+        <p class="copyright">Copyright blabbery: Who can know the meditation and anger of an individual if he has the boundless justice of the source? Remain and you will be feared purely.</p>
+    </footer>
     </body>
 
 </html>
