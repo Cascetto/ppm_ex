@@ -1,6 +1,134 @@
 * {
   margin: 0;
   padding: 0;
+  color: #434343;
+}
+
+a {
+  text-decoration: none;
+}
+
+.right-separator {
+  border-right: 2px solid gray;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.stretch {
+  width: 100%;
+}
+
+.logo {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.spaced {
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.quick-links {
+  list-style: none;
+}
+.quick-links li {
+  padding: 0 10px;
+}
+.quick-links a {
+  text-transform: uppercase;
+}
+.quick-links a:hover {
+  color: #0090d9;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+}
+
+.inline-list {
+  display: inline;
+}
+.inline-list li {
+  display: inline;
+}
+
+.clearfix {
+  clear: both;
+  color: black;
+  border-width: 5px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 10px auto;
+}
+.container .search {
+  float: right;
+}
+
+#navbar {
+  padding: 10px 0;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+button {
+  background-color: #0090d9;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+#subcontainer {
+  display: inline;
+}
+
+.important-text {
+  color: #0090d9;
+}
+
+#trending section {
+  width: 66%;
+  float: left;
+}
+#trending section > picture {
+  position: relative;
+  right: 0;
+  width: 50%;
+}
+#trending section ul {
+  position: relative;
+  left: 20px;
+}
+#trending section ul li {
+  font-weight: bold;
+}
+#trending section ul li span {
+  font-weight: normal;
+}
+#trending aside {
+  width: 33%;
+  float: right;
+}
+
+img {
+  max-width: 100%;
+}
+
+.with-separator {
+  border-bottom: 1px solid grey;
+}
+
+.news-card {
+  display: inline;
+  width: 50%;
 }
 
 /*# sourceMappingURL=es1a.css.map */

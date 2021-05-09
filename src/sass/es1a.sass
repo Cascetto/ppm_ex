@@ -1,3 +1,106 @@
+$text-color: #434343
+$primary-blue: #0090d9
+$primary-background: white
+
 *
   margin: 0
   padding: 0
+  color: $text-color
+
+a
+  text-decoration: none
+
+.right-separator
+  border-right: 2px solid gray
+
+.float-left
+  float: left
+
+.float-right
+  float: right
+
+.stretch
+  width: 100%
+
+.logo
+  margin: 20px 0
+  padding: 0 20px
+
+.spaced
+  padding: 20px 0
+  margin: 0 20px
+
+.quick-links
+  list-style: none
+  li
+    padding: 0 10px
+  a
+    text-transform: uppercase
+    &:hover
+      color: $primary-blue
+
+#navbar
+  position: sticky
+  top: 0
+
+.inline-list
+  display: inline
+  li
+    display: inline
+
+.clearfix
+  clear: both
+  color: black
+  border-width: 5px
+
+.container
+  max-width: 80%
+  margin: 10px auto
+  .search
+    float: right
+
+#navbar
+  padding: 10px 0
+  background-color: $primary-background
+  border-bottom: 2px solid black
+
+button
+  background-color: $primary-blue
+  color: white
+  padding: 10px
+  border: none
+
+#subcontainer
+  display: inline
+
+.important-text
+  color: $primary-blue
+
+#trending
+  section
+    width: 66%
+    float: left
+    >picture
+      position: relative
+      right: 0
+      width: 50%
+    ul
+      position: relative
+      left: 20px
+      li
+        font-weight: bold
+        span
+          font-weight: normal
+  aside
+    width: 33%
+    float: right
+
+img
+  max-width: 100%
+
+.with-separator
+  border-bottom: 1px solid grey
+
+.news-card
+  display: inline
+  width: 50%

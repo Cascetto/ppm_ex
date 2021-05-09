@@ -3,7 +3,7 @@
     <head>
         <title>Mercury News</title>
         <meta name="description" content="News da tutto il mondo, ed oltre">
-
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" type="text/css" href="src/css/es1a.css">
@@ -13,16 +13,18 @@
     <body>
 
     <header class="stretch">
-        <!-- todo <picture> -->
-        <img src="src/mn-logo.svg" alt="Mercury News">
-        <ul class="quick-links">
-            <li><a href="#">Today's Edition</a></li>
-            <li><a href="#">Manage Subscription</a></li>
-            <li><a href="#">Sign Up For Newsletter</a></li>
-            <li><a href="#">Weather</a></li>
-        </ul>
+        <div class="container">
+            <!-- todo <picture> -->
+            <img class="right-separator logo float-left" src="src/mn-logo.svg" alt="Mercury News">
+            <ul class="quick-links spaced">
+                <li><a href="#">Today's Edition</a></li>
+                <li><a href="#">Manage Subscription</a></li>
+                <li><a href="#">Sign Up For Newsletter</a></li>
+                <li><a href="#">Weather</a></li>
+            </ul>
+        </div>
     </header>
-
+    <hr class="clearfix">
     <nav id="navbar">
         <div class="container">
             <picture>
@@ -30,7 +32,7 @@
                 <img src="">
             </picture>
             <div id="subcontainer">
-                <ul class="inline-list">
+                <ul class="inline-list quick-links">
                     <li><a href="#">News <span class="secondary-text">↓</span></a></li>
                     <li><a href="#">Local <span class="secondary-text">↓</span></a></li>
                     <li><a href="#">Opinion <span class="secondary-text">↓</span></a></li>
@@ -40,32 +42,30 @@
                 </ul>
                 <ul class="inline-list">
                     <li><button >Subscribe</button></li>
-                    <li><button>Login</button></li>
+                    <li><button>Log In</button></li>
                 </ul>
             </div>
-            <div>
-                <span>Search Icon Here</span>
-            </div>
+            <span class="search">Search Icon Here</span>
         </div>
     </nav>
     <div class="container">
 
         <div id="trending">
-            <ul class="inline-list">
-                <li class="important-text">TRENDING</li>
+            <ul class="inline-list quick-links">
+                <li class="important-text">TRENDING: </li>
                 <li><a href="#">Kaiser Layoffs</a></li>
                 <li><a href="#">Poll: Bay Area's Biggest Woe</a></li>
                 <li><a href="#">Carlos News</a></li>
                 <li><a href="#">Ironmonkey</a></li>
                 <li><a href="#">Covid-19</a></li>
-                <li><a href="#">La cop sei tu</a></li>
+                <li><a href="#">La coop sei tu</a></li>
             </ul>
             <section>
                 <h2 class="article-title">Trending news placeholder title</h2>
                 <picture>
                     <img src="src/SJM-L-SJMICROSOFT-x-01.jpeg" alt="MacroHardOnFire">
                 </picture>
-                <p class="descritpion">Countless crewmates pull collective, cloudy spaces.</p>
+                <p class="descritpion">Countless crewmates pull collective, cloudy spaces. Salty, cold rums quietly break an addled, shiny corsair.</p>
                 <h4 class="with-separator">Related</h4>
                 <ul>
                     <li><a href="#">Related 1 <span class="secondary-text">10 hours ago</span></a></li>
