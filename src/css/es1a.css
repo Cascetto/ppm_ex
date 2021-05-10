@@ -273,4 +273,35 @@ footer ul li a img {
   background-color: gray;
 }
 
+.bottom {
+  bottom: 5px;
+}
+
+.right {
+  right: 5px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.small {
+  width: 1em;
+}
+
+.main-photo .photo {
+  width: 100%;
+}
+
+.sidephotos ul {
+  list-style: none;
+}
+.sidephotos ul li {
+  padding: 1em 0;
+  border-top: 10px solid gray;
+}
+.sidephotos ul li:first-child {
+  border: none;
+}
+
 /*# sourceMappingURL=es1a.css.map */
