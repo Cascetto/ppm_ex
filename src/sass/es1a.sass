@@ -240,15 +240,37 @@ footer
   width: 1em
 
 .main-photo
+  padding: 1em
+  float: left
+  width: 70%
   .photo
     width: 100%
 
-
 .sidephotos
+  float: left
+  width: 25%
   ul
     list-style: none
     li
+      overflow: auto
       padding: 1em 0
-      border-top: 10px solid gray
-      &:first-child
+      border-bottom: 10px solid gray
+      &:last-child
         border: none
+      &:after
+        clear: both
+  .photo-container
+    width: 30%
+    float: left
+    display: inline
+    .photo
+      max-width: 100%
+      &:after
+        content: ""
+  .description
+    display: inline
+
+.centered-text
+    display: block
+    margin: 0 auto
+
