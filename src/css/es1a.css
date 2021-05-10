@@ -7,6 +7,9 @@
 a {
   text-decoration: none;
 }
+a:hover {
+  color: #0090d9;
+}
 
 .right-separator {
   border-right: 2px solid gray;
@@ -34,6 +37,14 @@ a {
   margin: 0 20px;
 }
 
+.spaced-list li {
+  margin-right: 1em;
+}
+
+.first-bold ul li:first-child {
+  font-weight: bold;
+}
+
 .quick-links {
   list-style: none;
 }
@@ -52,9 +63,6 @@ a {
   top: 0;
 }
 
-.inline-list {
-  display: inline;
-}
 .inline-list li {
   display: inline;
 }
@@ -77,6 +85,7 @@ a {
   padding: 10px 0;
   background-color: white;
   border-bottom: 2px solid black;
+  z-index: 1000;
 }
 
 button {
@@ -117,18 +126,151 @@ button {
   width: 33%;
   float: right;
 }
-
-img {
-  max-width: 100%;
+#trending aside ul {
+  list-style: none;
+}
+#trending aside ul li {
+  padding: 1em;
+  border-top: 1px solid gray;
+}
+#trending aside ul:first-child {
+  border: none;
 }
 
-.with-separator {
+.bottom-separator {
   border-bottom: 1px solid grey;
+}
+
+.top-separator {
+  border-top: 1px solid grey;
+}
+
+.thumbnail {
+  float: right;
+  max-width: 100%;
+  width: 50%;
 }
 
 .news-card {
   display: inline;
-  width: 50%;
+}
+.news-card img {
+  max-width: 100%;
+  width: 45%;
+}
+.news-card h4 {
+  max-width: 40%;
+}
+
+.anchor {
+  position: relative;
+}
+
+.blue-sep {
+  border-color: #0090d9;
+}
+
+.pedix {
+  font-size: 0.6em;
+}
+
+.card {
+  background-color: #F1EFEB;
+  font-weight: bold;
+}
+.card button {
+  display: block;
+  background-color: #0090d9;
+  text-transform: uppercase;
+  padding: 1em;
+  margin: 0 AUTO;
+}
+.card button h4 {
+  color: white;
+}
+.card p {
+  padding: 1em;
+}
+.card #socials {
+  margin: 0 auto;
+  display: block;
+}
+.card #socials li {
+  padding: 0;
+  border: none;
+}
+.card #socials li img {
+  width: 1em;
+}
+
+.two-column {
+  padding-top: 1em;
+  column-count: 2;
+  counter-reset: mycounter;
+  list-style: none;
+}
+.two-column li {
+  counter-increment: mycounter;
+  margin: 0 0 1em 0;
+}
+.two-column li:before {
+  margin-right: 5px;
+  content: counter(mycounter);
+  color: white;
+  background-color: #0090d9;
+  border: #0090d9 solid 1px;
+  border-radius: 50px;
+}
+
+.right-arrow:after {
+  content: "";
+  background-image: url("../rightarrow.png");
+  background-size: 10px 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.thematical-group {
+  width: 30%;
+  float: left;
+  margin: 0 0.5%;
+}
+.thematical-group img {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 100%;
+  display: block;
+}
+.thematical-group ul {
+  list-style: none;
+}
+.thematical-group ul li {
+  padding: 1em;
+  border-top: 1px solid gray;
+}
+.thematical-group ul li:first-child {
+  border: none;
+}
+
+footer ul:first-child {
+  padding-top: 0.3em;
+}
+footer ul:last-child {
+  padding-bottom: 0.3em;
+}
+footer ul {
+  padding: 1em 0;
+}
+footer ul li a img {
+  width: 1em;
+}
+
+.strong-hr {
+  height: 5px;
+  border: none;
+  background-color: gray;
 }
 
 /*# sourceMappingURL=es1a.css.map */
